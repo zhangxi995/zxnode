@@ -1,103 +1,287 @@
-port: 7890
+﻿port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中转 🇸🇬 Singapore 11 @nodpai, server: zjxc.pmxu.link, port: 39037, type: vmess, uuid: 73dd8139-91f2-377e-9aed-658727dacefc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中转 🇭🇰 Hong Kong 35 @nodpai, server: mhfv46.cdn.node.a.tddns-ounk.com, port: 40238, type: vmess, uuid: b5247d82-9f56-3978-a202-80fae30331c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, ws-headers: {Host: mhfv46.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: 中转 🇭🇰 Hong Kong 04 @nodpai, server: scloud32.jafiyun.world, port: 22032, type: vmess, uuid: b977b966-2e65-3ee5-acde-ee3409ad3597, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中转 🇯🇵 Japan 02 @nodpai, server: scloud52.jafiyun.world, port: 22052, type: trojan, password: b977b966-2e65-3ee5-acde-ee3409ad3597, sni: scloud52.jafiyun.world, skip-cert-verify: true, udp: true}
-  - {name: 中转 🇯🇵 Japan 03 @nodpai, server: scloud53.jafiyun.world, port: 22053, type: trojan, password: b977b966-2e65-3ee5-acde-ee3409ad3597, sni: scloud53.jafiyun.world, skip-cert-verify: true, udp: true}
-  - {name: Singapore 21 @nodpai, server: sg01.vipnode.online, port: 80, type: vmess, uuid: 95d58891-4ff4-403b-b120-e656169621cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg01.vipnode.online}, udp: true}
-  - {name: 中转 🇯🇵 Japan 42 @nodpai, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13600, type: vmess, uuid: 912d2e2c-c4d1-3668-b2d5-afd668a32b81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8, ws-headers: {Host: q8eq.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: 中转 🇰🇷 South Korea 01 @nodpai, server: jafi19.jafiyun.world, port: 22019, type: vmess, uuid: b977b966-2e65-3ee5-acde-ee3409ad3597, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中转 🇰🇷 South Korea 02 @nodpai, server: scloud18.jafiyun.world, port: 22018, type: vmess, uuid: b977b966-2e65-3ee5-acde-ee3409ad3597, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong 07 @nodpai, server: hk02.vipnode.online, port: 80, type: vmess, uuid: 95d58891-4ff4-403b-b120-e656169621cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk02.vipnode.online}, udp: true}
-  - {name: Hong Kong 66 @nodpai, server: hk01.vipnode.online, port: 80, type: vmess, uuid: 95d58891-4ff4-403b-b120-e656169621cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk01.vipnode.online}, udp: true}
-  - {name: Hong Kong 59 @nodpai, server: hk04.vipnode.online, port: 80, type: vmess, uuid: 95d58891-4ff4-403b-b120-e656169621cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk04.vipnode.online}, udp: true}
-  - {name: Singapore 65 @nodpai, server: sg04.vipnode.online, port: 80, type: vmess, uuid: 95d58891-4ff4-403b-b120-e656169621cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg04.vipnode.online}, udp: true}
-  - {name: 中转 🇭🇰 Hong Kong 61 @nodpai, server: ah-cmi-1000m.ikun666.club, port: 38861, type: ss, cipher: aes-256-gcm, password: bad5fba5-a7bc-4709-882b-e15edad16cef, udp: true}
-  - {name: 中转 🇺🇸 United States 33 @nodpai, server: jzhkv2r1.cdn.node.a.tddns-ounk.com, port: 40382, type: vmess, uuid: b5247d82-9f56-3978-a202-80fae30331c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8, ws-headers: {Host: jzhkv2r1.cdn.node.a.tddns-ounk.com}, udp: true}
-  - {name: United States 19 @nodpai, server: wxll.e5outllok.me, port: 80, type: vmess, uuid: c44ec7ca-fd87-4c44-b68c-1e8c4d7855ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: wxll.e5outllok.me}, udp: true}
-  - {name: United States 09 @nodpai, server: 69.50.95.251, port: 9098, type: ss, cipher: chacha20-ietf-poly1305, password: ksjfuw!sop#, udp: true}
-  - {name: 中转 🇨🇦 Canada 02 @nodpai, server: zjxc.pmxu.link, port: 30839, type: vmess, uuid: bb5fd84b-f4ba-3068-9e45-c43b9ac4a831, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Canada 03 @nodpai, server: 51.161.35.200, port: 443, type: trojan, password: 006e3baa-cacd-4530-ae52-d633c4e9056d, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇸🇬 Singapore 50 @nodpai, server: zjxc.pmxu.link, port: 34322, type: vmess, uuid: 43a4ff7d-cda0-356f-a5a5-9185467198a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇸🇬 Singapore 12 @nodpai, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)12a00c4:82897}, udp: true}
+  - {name: 中转 🇹🇼 Taiwan 04 @nodpai, server: jp.iqiyi.club, port: 33067, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 07 @nodpai, server: vip.iqiyi.club, port: 33061, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 35 @nodpai, server: 183.240.222.80, port: 2001, type: ss, cipher: chacha20-ietf-poly1305, password: 4ca7c2b3-5667-44b0-8ab2-b21a6f887b32, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 13 @nodpai, server: gg.58n.net, port: 28678, type: trojan, password: 00ccfb25-133c-377d-ae13-0baf567ca47b, sni: gg.58n.net, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇹🇼 Taiwan 13 @nodpai, server: hinet02.relay-idc.top, port: 34304, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇰🇷 South Korea 09 @nodpai, server: krbgp02.relay-idc.top, port: 21940, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇹🇼 Taiwan 15 @nodpai, server: shct.pmxu.link, port: 39566, type: vmess, uuid: 43a4ff7d-cda0-356f-a5a5-9185467198a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇸🇬 Singapore 48 @nodpai, server: zjxc.pmxu.link, port: 12318, type: vmess, uuid: 43a4ff7d-cda0-356f-a5a5-9185467198a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇺🇸 United States 05 @nodpai, server: js.iqiyi.club, port: 33066, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: 中转 🇯🇵 Japan 02 @nodpai, server: video.tiktokuu.xyz, port: 12013, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 38 @nodpai, server: hgc03.relay-idc.top, port: 18017, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 33 @nodpai, server: hkbgp02.relay-idc.top, port: 22533, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇯🇵 Japan 07 @nodpai, server: app.iqiyi.club, port: 33060, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 40 @nodpai, server: hgc01.relay-idc.top, port: 18017, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 28 @nodpai, server: icable02.relay-idc.top, port: 17546, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: United States 07 @nodpai, server: v2node16.bipbupvpn.com, port: 443, type: vmess, uuid: 13280b2b-f63b-4d09-b520-6d54fc5c708f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2node16.bipbupvpn.com}, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 09 @nodpai, server: sg.iplc.iqiyi.club, port: 33060, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: 中转 🇸🇬 Singapore 49 @nodpai, server: zjxc.pmxu.link, port: 39037, type: vmess, uuid: 43a4ff7d-cda0-356f-a5a5-9185467198a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇰🇷 South Korea 10 @nodpai, server: krbgp03.relay-idc.top, port: 21939, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 29 @nodpai, server: hkbgp01.relay-idc.top, port: 22533, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 34 @nodpai, server: hgc02.relay-idc.top, port: 18017, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 08 @nodpai, server: gzhk.iqiyi.club, port: 13307, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: 中转 🇯🇵 Japan 06 @nodpai, server: jp.iqiyi.club, port: 33068, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: Singapore 06 @nodpai, server: 6f1sgtr1.106ctc.buzz, port: 50143, type: trojan, password: a7a7a8a7-a66c-3e0f-96d1-2a23af864747, sni: 6f1sgtr1.106ctc.buzz, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇰🇷 South Korea 08 @nodpai, server: krbgp01.relay-idc.top, port: 21939, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 30 @nodpai, server: icable01.relay-idc.top, port: 17546, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: United States 11 @nodpai, server: wxll.e5outllok.me, port: 80, type: vmess, uuid: 170be339-5b5b-4df8-8068-316c9f933dd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: wxll.e5outllok.me}, udp: true}
+  - {name: 中转 🇸🇬 Singapore 08 @nodpai, server: sg.iqiyi.club, port: 33066, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: United States 23 @nodpai, server: a510c94.j2.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)d0a8692:32667}, udp: true}
+  - {name: 中转 🇻🇳 Viet Nam 02 @nodpai, server: vn02.relay-idc.top, port: 23729, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: United States 21 @nodpai, server: 9749dcc.j1.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)ff5c0fb:30513}, udp: true}
+  - {name: 中转 🇯🇵 Japan 13 @nodpai, server: jpa3.node52.xyz, port: 47390, type: vmess, uuid: 673dd839-3159-3efe-9f2d-e873e87129a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 36 @nodpai, server: hk02.relay-idc.top, port: 35802, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇺🇸 United States 36 @nodpai, server: gzca1.node52.xyz, port: 28351, type: vmess, uuid: 673dd839-3159-3efe-9f2d-e873e87129a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States 31 @nodpai, server: ba6ec16.j2.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)c68b799:50307}, udp: true}
+  - {name: Bulgaria 01 @nodpai, server: v2node15.bipbupvpn.com, port: 10100, type: vmess, uuid: 13280b2b-f63b-4d09-b520-6d54fc5c708f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2node15.bipbupvpn.com}, udp: true}
+  - {name: 中转 🇹🇼 Taiwan 12 @nodpai, server: hinet03.relay-idc.top, port: 34304, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇹🇼 Taiwan 14 @nodpai, server: hinet01.relay-idc.top, port: 34304, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: Canada 02 @nodpai, server: 139.144.111.31, port: 1269, type: trojan, password: d85ddf5d-4208-4a26-a813-f77874e9d15e, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇹🇼 Taiwan 09 @nodpai, server: gztw2.node52.xyz, port: 28003, type: vmess, uuid: 673dd839-3159-3efe-9f2d-e873e87129a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇯🇵 Japan 05 @nodpai, server: app.iqiyi.club, port: 33065, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: South Korea 01 @nodpai, server: 43.201.29.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 06 @nodpai, server: vip.iqiyi.club, port: 33062, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: Canada 01 @nodpai, server: 51.161.35.200, port: 443, type: trojan, password: 006e3baa-cacd-4530-ae52-d633c4e9056d, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇯🇵 Japan 25 @nodpai, server: zjxc.pmxu.link, port: 19278, type: vmess, uuid: 43a4ff7d-cda0-356f-a5a5-9185467198a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Israel 01 @nodpai, server: v2node7.bipbupvpn.com, port: 443, type: vmess, uuid: 13280b2b-f63b-4d09-b520-6d54fc5c708f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2node7.bipbupvpn.com}, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 31 @nodpai, server: hk03.relay-idc.top, port: 35802, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 32 @nodpai, server: hk01.relay-idc.top, port: 35802, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇺🇸 United States 04 @nodpai, server: free.node.kk-proxy.pro, port: 54455, type: ss, cipher: chacha20-ietf-poly1305, password: a863473a-78be-403b-a69e-addee3fc6e28, udp: true}
+  - {name: United States 28 @nodpai, server: 078761b.j1.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)082f26a:31859}, udp: true}
+  - {name: United States 20 @nodpai, server: 88351b7.j1.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)ff5c0fb:30513}, udp: true}
+  - {name: United States 26 @nodpai, server: 9749dcc.j6.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)082f26a:31859}, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 04 @nodpai, server: vip.iqiyi.club, port: 33063, type: ss, cipher: aes-256-gcm, password: 91e2afc2-1f07-4eec-9bdd-d39bc8358476, udp: true}
+  - {name: 中转 🇭🇰 Hong Kong 37 @nodpai, server: hkbgp03.relay-idc.top, port: 22533, type: ss, cipher: chacha20-ietf-poly1305, password: d24e7705-be49-433e-82f0-40927e940bc8, udp: true}
+  - {name: 中转 🇮🇳 India 02 @nodpai, server: zjxc.pmxu.link, port: 40270, type: vmess, uuid: 43a4ff7d-cda0-356f-a5a5-9185467198a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转 🇺🇸 United States 44 @nodpai, server: hzdx.pt.jetfast.top, port: 50580, type: vmess, uuid: 2779894e-79d2-434f-b7e4-a5bc41467f8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Taiwan 02 @nodpai, server: 103.177.33.188, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: b0f52ff5be5b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline005.chilines.club, path: /smabwqyo, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: Singapore 35 @nodpai, server: be759c5.s4.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)ff5c0fb:30513}, udp: true}
+  - {name: Singapore 30 @nodpai, server: ba6ec16.s1.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)ff5c0fb:30513}, udp: true}
+  - {name: Singapore 42 @nodpai, server: c4ea3f1.s4.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)ff5c0fb:30513}, udp: true}
+  - {name: 中转 🇹🇼 Taiwan 08 @nodpai, server: gztw1.node52.xyz, port: 28005, type: vmess, uuid: 673dd839-3159-3efe-9f2d-e873e87129a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Singapore 19 @nodpai, server: 13552fb.s1.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)ff5c0fb:30513}, udp: true}
+  - {name: Singapore 24 @nodpai, server: a510c94.s1.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (tg@wangcai_1)ff5c0fb:30513}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转 🇸🇬 Singapore 11 @nodpai
+      - 中转 🇸🇬 Singapore 50 @nodpai
+      - 中转 🇸🇬 Singapore 12 @nodpai
+      - 中转 🇹🇼 Taiwan 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 07 @nodpai
       - 中转 🇭🇰 Hong Kong 35 @nodpai
-      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 13 @nodpai
+      - 中转 🇹🇼 Taiwan 13 @nodpai
+      - 中转 🇰🇷 South Korea 09 @nodpai
+      - 中转 🇹🇼 Taiwan 15 @nodpai
+      - 中转 🇸🇬 Singapore 48 @nodpai
+      - 中转 🇺🇸 United States 05 @nodpai
       - 中转 🇯🇵 Japan 02 @nodpai
-      - 中转 🇯🇵 Japan 03 @nodpai
-      - Singapore 21 @nodpai
-      - 中转 🇯🇵 Japan 42 @nodpai
-      - 中转 🇰🇷 South Korea 01 @nodpai
-      - 中转 🇰🇷 South Korea 02 @nodpai
-      - Hong Kong 07 @nodpai
-      - Hong Kong 66 @nodpai
-      - Hong Kong 59 @nodpai
-      - Singapore 65 @nodpai
-      - 中转 🇭🇰 Hong Kong 61 @nodpai
-      - 中转 🇺🇸 United States 33 @nodpai
-      - United States 19 @nodpai
-      - United States 09 @nodpai
-      - 中转 🇨🇦 Canada 02 @nodpai
-      - Canada 03 @nodpai
+      - 中转 🇭🇰 Hong Kong 38 @nodpai
+      - 中转 🇭🇰 Hong Kong 33 @nodpai
+      - 中转 🇯🇵 Japan 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 40 @nodpai
+      - 中转 🇭🇰 Hong Kong 28 @nodpai
+      - United States 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 中转 🇸🇬 Singapore 49 @nodpai
+      - 中转 🇰🇷 South Korea 10 @nodpai
+      - 中转 🇭🇰 Hong Kong 29 @nodpai
+      - 中转 🇭🇰 Hong Kong 34 @nodpai
+      - 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 中转 🇯🇵 Japan 06 @nodpai
+      - Singapore 06 @nodpai
+      - 中转 🇰🇷 South Korea 08 @nodpai
+      - 中转 🇭🇰 Hong Kong 30 @nodpai
+      - United States 11 @nodpai
+      - 中转 🇸🇬 Singapore 08 @nodpai
+      - United States 23 @nodpai
+      - 中转 🇻🇳 Viet Nam 02 @nodpai
+      - United States 21 @nodpai
+      - 中转 🇯🇵 Japan 13 @nodpai
+      - 中转 🇭🇰 Hong Kong 36 @nodpai
+      - 中转 🇺🇸 United States 36 @nodpai
+      - United States 31 @nodpai
+      - Bulgaria 01 @nodpai
+      - 中转 🇹🇼 Taiwan 12 @nodpai
+      - 中转 🇹🇼 Taiwan 14 @nodpai
+      - Canada 02 @nodpai
+      - 中转 🇹🇼 Taiwan 09 @nodpai
+      - 中转 🇯🇵 Japan 05 @nodpai
+      - South Korea 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 06 @nodpai
+      - Canada 01 @nodpai
+      - 中转 🇯🇵 Japan 25 @nodpai
+      - Israel 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 31 @nodpai
+      - 中转 🇭🇰 Hong Kong 32 @nodpai
+      - 中转 🇺🇸 United States 04 @nodpai
+      - United States 28 @nodpai
+      - United States 20 @nodpai
+      - United States 26 @nodpai
+      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 37 @nodpai
+      - 中转 🇮🇳 India 02 @nodpai
+      - 中转 🇺🇸 United States 44 @nodpai
+      - Taiwan 02 @nodpai
+      - Singapore 35 @nodpai
+      - Singapore 30 @nodpai
+      - Singapore 42 @nodpai
+      - 中转 🇹🇼 Taiwan 08 @nodpai
+      - Singapore 19 @nodpai
+      - Singapore 24 @nodpai
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中转 🇸🇬 Singapore 11 @nodpai
+      - 中转 🇸🇬 Singapore 50 @nodpai
+      - 中转 🇸🇬 Singapore 12 @nodpai
+      - 中转 🇹🇼 Taiwan 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 07 @nodpai
       - 中转 🇭🇰 Hong Kong 35 @nodpai
-      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 13 @nodpai
+      - 中转 🇹🇼 Taiwan 13 @nodpai
+      - 中转 🇰🇷 South Korea 09 @nodpai
+      - 中转 🇹🇼 Taiwan 15 @nodpai
+      - 中转 🇸🇬 Singapore 48 @nodpai
+      - 中转 🇺🇸 United States 05 @nodpai
       - 中转 🇯🇵 Japan 02 @nodpai
-      - 中转 🇯🇵 Japan 03 @nodpai
-      - Singapore 21 @nodpai
-      - 中转 🇯🇵 Japan 42 @nodpai
-      - 中转 🇰🇷 South Korea 01 @nodpai
-      - 中转 🇰🇷 South Korea 02 @nodpai
-      - Hong Kong 07 @nodpai
-      - Hong Kong 66 @nodpai
-      - Hong Kong 59 @nodpai
-      - Singapore 65 @nodpai
-      - 中转 🇭🇰 Hong Kong 61 @nodpai
-      - 中转 🇺🇸 United States 33 @nodpai
-      - United States 19 @nodpai
-      - United States 09 @nodpai
-      - 中转 🇨🇦 Canada 02 @nodpai
-      - Canada 03 @nodpai
+      - 中转 🇭🇰 Hong Kong 38 @nodpai
+      - 中转 🇭🇰 Hong Kong 33 @nodpai
+      - 中转 🇯🇵 Japan 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 40 @nodpai
+      - 中转 🇭🇰 Hong Kong 28 @nodpai
+      - United States 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 中转 🇸🇬 Singapore 49 @nodpai
+      - 中转 🇰🇷 South Korea 10 @nodpai
+      - 中转 🇭🇰 Hong Kong 29 @nodpai
+      - 中转 🇭🇰 Hong Kong 34 @nodpai
+      - 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 中转 🇯🇵 Japan 06 @nodpai
+      - Singapore 06 @nodpai
+      - 中转 🇰🇷 South Korea 08 @nodpai
+      - 中转 🇭🇰 Hong Kong 30 @nodpai
+      - United States 11 @nodpai
+      - 中转 🇸🇬 Singapore 08 @nodpai
+      - United States 23 @nodpai
+      - 中转 🇻🇳 Viet Nam 02 @nodpai
+      - United States 21 @nodpai
+      - 中转 🇯🇵 Japan 13 @nodpai
+      - 中转 🇭🇰 Hong Kong 36 @nodpai
+      - 中转 🇺🇸 United States 36 @nodpai
+      - United States 31 @nodpai
+      - Bulgaria 01 @nodpai
+      - 中转 🇹🇼 Taiwan 12 @nodpai
+      - 中转 🇹🇼 Taiwan 14 @nodpai
+      - Canada 02 @nodpai
+      - 中转 🇹🇼 Taiwan 09 @nodpai
+      - 中转 🇯🇵 Japan 05 @nodpai
+      - South Korea 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 06 @nodpai
+      - Canada 01 @nodpai
+      - 中转 🇯🇵 Japan 25 @nodpai
+      - Israel 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 31 @nodpai
+      - 中转 🇭🇰 Hong Kong 32 @nodpai
+      - 中转 🇺🇸 United States 04 @nodpai
+      - United States 28 @nodpai
+      - United States 20 @nodpai
+      - United States 26 @nodpai
+      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 37 @nodpai
+      - 中转 🇮🇳 India 02 @nodpai
+      - 中转 🇺🇸 United States 44 @nodpai
+      - Taiwan 02 @nodpai
+      - Singapore 35 @nodpai
+      - Singapore 30 @nodpai
+      - Singapore 42 @nodpai
+      - 中转 🇹🇼 Taiwan 08 @nodpai
+      - Singapore 19 @nodpai
+      - Singapore 24 @nodpai
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转 🇸🇬 Singapore 11 @nodpai
+      - 中转 🇸🇬 Singapore 50 @nodpai
+      - 中转 🇸🇬 Singapore 12 @nodpai
+      - 中转 🇹🇼 Taiwan 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 07 @nodpai
       - 中转 🇭🇰 Hong Kong 35 @nodpai
-      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 13 @nodpai
+      - 中转 🇹🇼 Taiwan 13 @nodpai
+      - 中转 🇰🇷 South Korea 09 @nodpai
+      - 中转 🇹🇼 Taiwan 15 @nodpai
+      - 中转 🇸🇬 Singapore 48 @nodpai
+      - 中转 🇺🇸 United States 05 @nodpai
       - 中转 🇯🇵 Japan 02 @nodpai
-      - 中转 🇯🇵 Japan 03 @nodpai
-      - Singapore 21 @nodpai
-      - 中转 🇯🇵 Japan 42 @nodpai
-      - 中转 🇰🇷 South Korea 01 @nodpai
-      - 中转 🇰🇷 South Korea 02 @nodpai
-      - Hong Kong 07 @nodpai
-      - Hong Kong 66 @nodpai
-      - Hong Kong 59 @nodpai
-      - Singapore 65 @nodpai
-      - 中转 🇭🇰 Hong Kong 61 @nodpai
-      - 中转 🇺🇸 United States 33 @nodpai
-      - United States 19 @nodpai
-      - United States 09 @nodpai
-      - 中转 🇨🇦 Canada 02 @nodpai
-      - Canada 03 @nodpai
+      - 中转 🇭🇰 Hong Kong 38 @nodpai
+      - 中转 🇭🇰 Hong Kong 33 @nodpai
+      - 中转 🇯🇵 Japan 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 40 @nodpai
+      - 中转 🇭🇰 Hong Kong 28 @nodpai
+      - United States 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 中转 🇸🇬 Singapore 49 @nodpai
+      - 中转 🇰🇷 South Korea 10 @nodpai
+      - 中转 🇭🇰 Hong Kong 29 @nodpai
+      - 中转 🇭🇰 Hong Kong 34 @nodpai
+      - 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 中转 🇯🇵 Japan 06 @nodpai
+      - Singapore 06 @nodpai
+      - 中转 🇰🇷 South Korea 08 @nodpai
+      - 中转 🇭🇰 Hong Kong 30 @nodpai
+      - United States 11 @nodpai
+      - 中转 🇸🇬 Singapore 08 @nodpai
+      - United States 23 @nodpai
+      - 中转 🇻🇳 Viet Nam 02 @nodpai
+      - United States 21 @nodpai
+      - 中转 🇯🇵 Japan 13 @nodpai
+      - 中转 🇭🇰 Hong Kong 36 @nodpai
+      - 中转 🇺🇸 United States 36 @nodpai
+      - United States 31 @nodpai
+      - Bulgaria 01 @nodpai
+      - 中转 🇹🇼 Taiwan 12 @nodpai
+      - 中转 🇹🇼 Taiwan 14 @nodpai
+      - Canada 02 @nodpai
+      - 中转 🇹🇼 Taiwan 09 @nodpai
+      - 中转 🇯🇵 Japan 05 @nodpai
+      - South Korea 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 06 @nodpai
+      - Canada 01 @nodpai
+      - 中转 🇯🇵 Japan 25 @nodpai
+      - Israel 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 31 @nodpai
+      - 中转 🇭🇰 Hong Kong 32 @nodpai
+      - 中转 🇺🇸 United States 04 @nodpai
+      - United States 28 @nodpai
+      - United States 20 @nodpai
+      - United States 26 @nodpai
+      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 37 @nodpai
+      - 中转 🇮🇳 India 02 @nodpai
+      - 中转 🇺🇸 United States 44 @nodpai
+      - Taiwan 02 @nodpai
+      - Singapore 35 @nodpai
+      - Singapore 30 @nodpai
+      - Singapore 42 @nodpai
+      - 中转 🇹🇼 Taiwan 08 @nodpai
+      - Singapore 19 @nodpai
+      - Singapore 24 @nodpai
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,25 +300,71 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转 🇸🇬 Singapore 11 @nodpai
+      - 中转 🇸🇬 Singapore 50 @nodpai
+      - 中转 🇸🇬 Singapore 12 @nodpai
+      - 中转 🇹🇼 Taiwan 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 07 @nodpai
       - 中转 🇭🇰 Hong Kong 35 @nodpai
-      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 13 @nodpai
+      - 中转 🇹🇼 Taiwan 13 @nodpai
+      - 中转 🇰🇷 South Korea 09 @nodpai
+      - 中转 🇹🇼 Taiwan 15 @nodpai
+      - 中转 🇸🇬 Singapore 48 @nodpai
+      - 中转 🇺🇸 United States 05 @nodpai
       - 中转 🇯🇵 Japan 02 @nodpai
-      - 中转 🇯🇵 Japan 03 @nodpai
-      - Singapore 21 @nodpai
-      - 中转 🇯🇵 Japan 42 @nodpai
-      - 中转 🇰🇷 South Korea 01 @nodpai
-      - 中转 🇰🇷 South Korea 02 @nodpai
-      - Hong Kong 07 @nodpai
-      - Hong Kong 66 @nodpai
-      - Hong Kong 59 @nodpai
-      - Singapore 65 @nodpai
-      - 中转 🇭🇰 Hong Kong 61 @nodpai
-      - 中转 🇺🇸 United States 33 @nodpai
-      - United States 19 @nodpai
-      - United States 09 @nodpai
-      - 中转 🇨🇦 Canada 02 @nodpai
-      - Canada 03 @nodpai
+      - 中转 🇭🇰 Hong Kong 38 @nodpai
+      - 中转 🇭🇰 Hong Kong 33 @nodpai
+      - 中转 🇯🇵 Japan 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 40 @nodpai
+      - 中转 🇭🇰 Hong Kong 28 @nodpai
+      - United States 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 中转 🇸🇬 Singapore 49 @nodpai
+      - 中转 🇰🇷 South Korea 10 @nodpai
+      - 中转 🇭🇰 Hong Kong 29 @nodpai
+      - 中转 🇭🇰 Hong Kong 34 @nodpai
+      - 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 中转 🇯🇵 Japan 06 @nodpai
+      - Singapore 06 @nodpai
+      - 中转 🇰🇷 South Korea 08 @nodpai
+      - 中转 🇭🇰 Hong Kong 30 @nodpai
+      - United States 11 @nodpai
+      - 中转 🇸🇬 Singapore 08 @nodpai
+      - United States 23 @nodpai
+      - 中转 🇻🇳 Viet Nam 02 @nodpai
+      - United States 21 @nodpai
+      - 中转 🇯🇵 Japan 13 @nodpai
+      - 中转 🇭🇰 Hong Kong 36 @nodpai
+      - 中转 🇺🇸 United States 36 @nodpai
+      - United States 31 @nodpai
+      - Bulgaria 01 @nodpai
+      - 中转 🇹🇼 Taiwan 12 @nodpai
+      - 中转 🇹🇼 Taiwan 14 @nodpai
+      - Canada 02 @nodpai
+      - 中转 🇹🇼 Taiwan 09 @nodpai
+      - 中转 🇯🇵 Japan 05 @nodpai
+      - South Korea 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 06 @nodpai
+      - Canada 01 @nodpai
+      - 中转 🇯🇵 Japan 25 @nodpai
+      - Israel 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 31 @nodpai
+      - 中转 🇭🇰 Hong Kong 32 @nodpai
+      - 中转 🇺🇸 United States 04 @nodpai
+      - United States 28 @nodpai
+      - United States 20 @nodpai
+      - United States 26 @nodpai
+      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 37 @nodpai
+      - 中转 🇮🇳 India 02 @nodpai
+      - 中转 🇺🇸 United States 44 @nodpai
+      - Taiwan 02 @nodpai
+      - Singapore 35 @nodpai
+      - Singapore 30 @nodpai
+      - Singapore 42 @nodpai
+      - 中转 🇹🇼 Taiwan 08 @nodpai
+      - Singapore 19 @nodpai
+      - Singapore 24 @nodpai
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -145,74 +375,212 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中转 🇸🇬 Singapore 11 @nodpai
+      - 中转 🇸🇬 Singapore 50 @nodpai
+      - 中转 🇸🇬 Singapore 12 @nodpai
+      - 中转 🇹🇼 Taiwan 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 07 @nodpai
       - 中转 🇭🇰 Hong Kong 35 @nodpai
-      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 13 @nodpai
+      - 中转 🇹🇼 Taiwan 13 @nodpai
+      - 中转 🇰🇷 South Korea 09 @nodpai
+      - 中转 🇹🇼 Taiwan 15 @nodpai
+      - 中转 🇸🇬 Singapore 48 @nodpai
+      - 中转 🇺🇸 United States 05 @nodpai
       - 中转 🇯🇵 Japan 02 @nodpai
-      - 中转 🇯🇵 Japan 03 @nodpai
-      - Singapore 21 @nodpai
-      - 中转 🇯🇵 Japan 42 @nodpai
-      - 中转 🇰🇷 South Korea 01 @nodpai
-      - 中转 🇰🇷 South Korea 02 @nodpai
-      - Hong Kong 07 @nodpai
-      - Hong Kong 66 @nodpai
-      - Hong Kong 59 @nodpai
-      - Singapore 65 @nodpai
-      - 中转 🇭🇰 Hong Kong 61 @nodpai
-      - 中转 🇺🇸 United States 33 @nodpai
-      - United States 19 @nodpai
-      - United States 09 @nodpai
-      - 中转 🇨🇦 Canada 02 @nodpai
-      - Canada 03 @nodpai
+      - 中转 🇭🇰 Hong Kong 38 @nodpai
+      - 中转 🇭🇰 Hong Kong 33 @nodpai
+      - 中转 🇯🇵 Japan 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 40 @nodpai
+      - 中转 🇭🇰 Hong Kong 28 @nodpai
+      - United States 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 中转 🇸🇬 Singapore 49 @nodpai
+      - 中转 🇰🇷 South Korea 10 @nodpai
+      - 中转 🇭🇰 Hong Kong 29 @nodpai
+      - 中转 🇭🇰 Hong Kong 34 @nodpai
+      - 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 中转 🇯🇵 Japan 06 @nodpai
+      - Singapore 06 @nodpai
+      - 中转 🇰🇷 South Korea 08 @nodpai
+      - 中转 🇭🇰 Hong Kong 30 @nodpai
+      - United States 11 @nodpai
+      - 中转 🇸🇬 Singapore 08 @nodpai
+      - United States 23 @nodpai
+      - 中转 🇻🇳 Viet Nam 02 @nodpai
+      - United States 21 @nodpai
+      - 中转 🇯🇵 Japan 13 @nodpai
+      - 中转 🇭🇰 Hong Kong 36 @nodpai
+      - 中转 🇺🇸 United States 36 @nodpai
+      - United States 31 @nodpai
+      - Bulgaria 01 @nodpai
+      - 中转 🇹🇼 Taiwan 12 @nodpai
+      - 中转 🇹🇼 Taiwan 14 @nodpai
+      - Canada 02 @nodpai
+      - 中转 🇹🇼 Taiwan 09 @nodpai
+      - 中转 🇯🇵 Japan 05 @nodpai
+      - South Korea 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 06 @nodpai
+      - Canada 01 @nodpai
+      - 中转 🇯🇵 Japan 25 @nodpai
+      - Israel 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 31 @nodpai
+      - 中转 🇭🇰 Hong Kong 32 @nodpai
+      - 中转 🇺🇸 United States 04 @nodpai
+      - United States 28 @nodpai
+      - United States 20 @nodpai
+      - United States 26 @nodpai
+      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 37 @nodpai
+      - 中转 🇮🇳 India 02 @nodpai
+      - 中转 🇺🇸 United States 44 @nodpai
+      - Taiwan 02 @nodpai
+      - Singapore 35 @nodpai
+      - Singapore 30 @nodpai
+      - Singapore 42 @nodpai
+      - 中转 🇹🇼 Taiwan 08 @nodpai
+      - Singapore 19 @nodpai
+      - Singapore 24 @nodpai
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中转 🇸🇬 Singapore 11 @nodpai
+      - 中转 🇸🇬 Singapore 50 @nodpai
+      - 中转 🇸🇬 Singapore 12 @nodpai
+      - 中转 🇹🇼 Taiwan 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 07 @nodpai
       - 中转 🇭🇰 Hong Kong 35 @nodpai
-      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 13 @nodpai
+      - 中转 🇹🇼 Taiwan 13 @nodpai
+      - 中转 🇰🇷 South Korea 09 @nodpai
+      - 中转 🇹🇼 Taiwan 15 @nodpai
+      - 中转 🇸🇬 Singapore 48 @nodpai
+      - 中转 🇺🇸 United States 05 @nodpai
       - 中转 🇯🇵 Japan 02 @nodpai
-      - 中转 🇯🇵 Japan 03 @nodpai
-      - Singapore 21 @nodpai
-      - 中转 🇯🇵 Japan 42 @nodpai
-      - 中转 🇰🇷 South Korea 01 @nodpai
-      - 中转 🇰🇷 South Korea 02 @nodpai
-      - Hong Kong 07 @nodpai
-      - Hong Kong 66 @nodpai
-      - Hong Kong 59 @nodpai
-      - Singapore 65 @nodpai
-      - 中转 🇭🇰 Hong Kong 61 @nodpai
-      - 中转 🇺🇸 United States 33 @nodpai
-      - United States 19 @nodpai
-      - United States 09 @nodpai
-      - 中转 🇨🇦 Canada 02 @nodpai
-      - Canada 03 @nodpai
+      - 中转 🇭🇰 Hong Kong 38 @nodpai
+      - 中转 🇭🇰 Hong Kong 33 @nodpai
+      - 中转 🇯🇵 Japan 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 40 @nodpai
+      - 中转 🇭🇰 Hong Kong 28 @nodpai
+      - United States 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 中转 🇸🇬 Singapore 49 @nodpai
+      - 中转 🇰🇷 South Korea 10 @nodpai
+      - 中转 🇭🇰 Hong Kong 29 @nodpai
+      - 中转 🇭🇰 Hong Kong 34 @nodpai
+      - 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 中转 🇯🇵 Japan 06 @nodpai
+      - Singapore 06 @nodpai
+      - 中转 🇰🇷 South Korea 08 @nodpai
+      - 中转 🇭🇰 Hong Kong 30 @nodpai
+      - United States 11 @nodpai
+      - 中转 🇸🇬 Singapore 08 @nodpai
+      - United States 23 @nodpai
+      - 中转 🇻🇳 Viet Nam 02 @nodpai
+      - United States 21 @nodpai
+      - 中转 🇯🇵 Japan 13 @nodpai
+      - 中转 🇭🇰 Hong Kong 36 @nodpai
+      - 中转 🇺🇸 United States 36 @nodpai
+      - United States 31 @nodpai
+      - Bulgaria 01 @nodpai
+      - 中转 🇹🇼 Taiwan 12 @nodpai
+      - 中转 🇹🇼 Taiwan 14 @nodpai
+      - Canada 02 @nodpai
+      - 中转 🇹🇼 Taiwan 09 @nodpai
+      - 中转 🇯🇵 Japan 05 @nodpai
+      - South Korea 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 06 @nodpai
+      - Canada 01 @nodpai
+      - 中转 🇯🇵 Japan 25 @nodpai
+      - Israel 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 31 @nodpai
+      - 中转 🇭🇰 Hong Kong 32 @nodpai
+      - 中转 🇺🇸 United States 04 @nodpai
+      - United States 28 @nodpai
+      - United States 20 @nodpai
+      - United States 26 @nodpai
+      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 37 @nodpai
+      - 中转 🇮🇳 India 02 @nodpai
+      - 中转 🇺🇸 United States 44 @nodpai
+      - Taiwan 02 @nodpai
+      - Singapore 35 @nodpai
+      - Singapore 30 @nodpai
+      - Singapore 42 @nodpai
+      - 中转 🇹🇼 Taiwan 08 @nodpai
+      - Singapore 19 @nodpai
+      - Singapore 24 @nodpai
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转 🇸🇬 Singapore 11 @nodpai
+      - 中转 🇸🇬 Singapore 50 @nodpai
+      - 中转 🇸🇬 Singapore 12 @nodpai
+      - 中转 🇹🇼 Taiwan 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 07 @nodpai
       - 中转 🇭🇰 Hong Kong 35 @nodpai
-      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 13 @nodpai
+      - 中转 🇹🇼 Taiwan 13 @nodpai
+      - 中转 🇰🇷 South Korea 09 @nodpai
+      - 中转 🇹🇼 Taiwan 15 @nodpai
+      - 中转 🇸🇬 Singapore 48 @nodpai
+      - 中转 🇺🇸 United States 05 @nodpai
       - 中转 🇯🇵 Japan 02 @nodpai
-      - 中转 🇯🇵 Japan 03 @nodpai
-      - Singapore 21 @nodpai
-      - 中转 🇯🇵 Japan 42 @nodpai
-      - 中转 🇰🇷 South Korea 01 @nodpai
-      - 中转 🇰🇷 South Korea 02 @nodpai
-      - Hong Kong 07 @nodpai
-      - Hong Kong 66 @nodpai
-      - Hong Kong 59 @nodpai
-      - Singapore 65 @nodpai
-      - 中转 🇭🇰 Hong Kong 61 @nodpai
-      - 中转 🇺🇸 United States 33 @nodpai
-      - United States 19 @nodpai
-      - United States 09 @nodpai
-      - 中转 🇨🇦 Canada 02 @nodpai
-      - Canada 03 @nodpai
+      - 中转 🇭🇰 Hong Kong 38 @nodpai
+      - 中转 🇭🇰 Hong Kong 33 @nodpai
+      - 中转 🇯🇵 Japan 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 40 @nodpai
+      - 中转 🇭🇰 Hong Kong 28 @nodpai
+      - United States 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 中转 🇸🇬 Singapore 49 @nodpai
+      - 中转 🇰🇷 South Korea 10 @nodpai
+      - 中转 🇭🇰 Hong Kong 29 @nodpai
+      - 中转 🇭🇰 Hong Kong 34 @nodpai
+      - 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 中转 🇯🇵 Japan 06 @nodpai
+      - Singapore 06 @nodpai
+      - 中转 🇰🇷 South Korea 08 @nodpai
+      - 中转 🇭🇰 Hong Kong 30 @nodpai
+      - United States 11 @nodpai
+      - 中转 🇸🇬 Singapore 08 @nodpai
+      - United States 23 @nodpai
+      - 中转 🇻🇳 Viet Nam 02 @nodpai
+      - United States 21 @nodpai
+      - 中转 🇯🇵 Japan 13 @nodpai
+      - 中转 🇭🇰 Hong Kong 36 @nodpai
+      - 中转 🇺🇸 United States 36 @nodpai
+      - United States 31 @nodpai
+      - Bulgaria 01 @nodpai
+      - 中转 🇹🇼 Taiwan 12 @nodpai
+      - 中转 🇹🇼 Taiwan 14 @nodpai
+      - Canada 02 @nodpai
+      - 中转 🇹🇼 Taiwan 09 @nodpai
+      - 中转 🇯🇵 Japan 05 @nodpai
+      - South Korea 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 06 @nodpai
+      - Canada 01 @nodpai
+      - 中转 🇯🇵 Japan 25 @nodpai
+      - Israel 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 31 @nodpai
+      - 中转 🇭🇰 Hong Kong 32 @nodpai
+      - 中转 🇺🇸 United States 04 @nodpai
+      - United States 28 @nodpai
+      - United States 20 @nodpai
+      - United States 26 @nodpai
+      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 37 @nodpai
+      - 中转 🇮🇳 India 02 @nodpai
+      - 中转 🇺🇸 United States 44 @nodpai
+      - Taiwan 02 @nodpai
+      - Singapore 35 @nodpai
+      - Singapore 30 @nodpai
+      - Singapore 42 @nodpai
+      - 中转 🇹🇼 Taiwan 08 @nodpai
+      - Singapore 19 @nodpai
+      - Singapore 24 @nodpai
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,25 +596,71 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转 🇸🇬 Singapore 11 @nodpai
+      - 中转 🇸🇬 Singapore 50 @nodpai
+      - 中转 🇸🇬 Singapore 12 @nodpai
+      - 中转 🇹🇼 Taiwan 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 07 @nodpai
       - 中转 🇭🇰 Hong Kong 35 @nodpai
-      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 13 @nodpai
+      - 中转 🇹🇼 Taiwan 13 @nodpai
+      - 中转 🇰🇷 South Korea 09 @nodpai
+      - 中转 🇹🇼 Taiwan 15 @nodpai
+      - 中转 🇸🇬 Singapore 48 @nodpai
+      - 中转 🇺🇸 United States 05 @nodpai
       - 中转 🇯🇵 Japan 02 @nodpai
-      - 中转 🇯🇵 Japan 03 @nodpai
-      - Singapore 21 @nodpai
-      - 中转 🇯🇵 Japan 42 @nodpai
-      - 中转 🇰🇷 South Korea 01 @nodpai
-      - 中转 🇰🇷 South Korea 02 @nodpai
-      - Hong Kong 07 @nodpai
-      - Hong Kong 66 @nodpai
-      - Hong Kong 59 @nodpai
-      - Singapore 65 @nodpai
-      - 中转 🇭🇰 Hong Kong 61 @nodpai
-      - 中转 🇺🇸 United States 33 @nodpai
-      - United States 19 @nodpai
-      - United States 09 @nodpai
-      - 中转 🇨🇦 Canada 02 @nodpai
-      - Canada 03 @nodpai
+      - 中转 🇭🇰 Hong Kong 38 @nodpai
+      - 中转 🇭🇰 Hong Kong 33 @nodpai
+      - 中转 🇯🇵 Japan 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 40 @nodpai
+      - 中转 🇭🇰 Hong Kong 28 @nodpai
+      - United States 07 @nodpai
+      - 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 中转 🇸🇬 Singapore 49 @nodpai
+      - 中转 🇰🇷 South Korea 10 @nodpai
+      - 中转 🇭🇰 Hong Kong 29 @nodpai
+      - 中转 🇭🇰 Hong Kong 34 @nodpai
+      - 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 中转 🇯🇵 Japan 06 @nodpai
+      - Singapore 06 @nodpai
+      - 中转 🇰🇷 South Korea 08 @nodpai
+      - 中转 🇭🇰 Hong Kong 30 @nodpai
+      - United States 11 @nodpai
+      - 中转 🇸🇬 Singapore 08 @nodpai
+      - United States 23 @nodpai
+      - 中转 🇻🇳 Viet Nam 02 @nodpai
+      - United States 21 @nodpai
+      - 中转 🇯🇵 Japan 13 @nodpai
+      - 中转 🇭🇰 Hong Kong 36 @nodpai
+      - 中转 🇺🇸 United States 36 @nodpai
+      - United States 31 @nodpai
+      - Bulgaria 01 @nodpai
+      - 中转 🇹🇼 Taiwan 12 @nodpai
+      - 中转 🇹🇼 Taiwan 14 @nodpai
+      - Canada 02 @nodpai
+      - 中转 🇹🇼 Taiwan 09 @nodpai
+      - 中转 🇯🇵 Japan 05 @nodpai
+      - South Korea 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 06 @nodpai
+      - Canada 01 @nodpai
+      - 中转 🇯🇵 Japan 25 @nodpai
+      - Israel 01 @nodpai
+      - 中转 🇭🇰 Hong Kong 31 @nodpai
+      - 中转 🇭🇰 Hong Kong 32 @nodpai
+      - 中转 🇺🇸 United States 04 @nodpai
+      - United States 28 @nodpai
+      - United States 20 @nodpai
+      - United States 26 @nodpai
+      - 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 中转 🇭🇰 Hong Kong 37 @nodpai
+      - 中转 🇮🇳 India 02 @nodpai
+      - 中转 🇺🇸 United States 44 @nodpai
+      - Taiwan 02 @nodpai
+      - Singapore 35 @nodpai
+      - Singapore 30 @nodpai
+      - Singapore 42 @nodpai
+      - 中转 🇹🇼 Taiwan 08 @nodpai
+      - Singapore 19 @nodpai
+      - Singapore 24 @nodpai
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
