@@ -1,1 +1,1 @@
-vmess=jp-tokyo-oracle-5a26da.ip1.shop:46954, method=aes-128-gcm, password=771de00a-4cac-4f88-b4f1-a12931a3a304, obfs=ws, obfs-uri=/771de00a, fast-open=false, udp-relay=false, aead=true, tag=jp-tokyo-oracle-5a26da.ip1.shop
+vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ2bWVzcyIsCiAgImFkZCI6ICJqcC10b2t5by1vcmFjbGUtYTVhNGYxLmlwMS5zaG9wIiwKICAicG9ydCI6IDU3MTAzLAogICJpZCI6ICI2ZTRjMWFlZC1jZWZkLTQyMDgtZWRiZi1kMjJkNzVjN2UyYmUiLAogICJhaWQiOiAwLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIiIsCiAgInBhdGgiOiAiLzZlNGMxYWVkIiwKICAidGxzIjogIm5vbmUiCn0=
