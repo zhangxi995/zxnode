@@ -1,3 +1,2 @@
 vmess=jp-tokyo-oracle-a5a4f1.ip1.shop:57103, method=aes-128-gcm, password=6e4c1aed-cefd-4208-edbf-d22d75c7e2be, obfs=ws, obfs-uri=/6e4c1aed, fast-open=false, udp-relay=false, aead=true, tag=cloud.duckyci.jp
 
-
