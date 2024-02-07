@@ -4,7 +4,7 @@ vmess=www.whoer.net:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4f
 
 vmess=www.udemy.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.udemy.com
 
-vmess=tasteatlas.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=tasteatlas.com
+vmess=edgetunnel.anycast.eu.org:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=edgetunnel.anycast.eu.org
 
 vmess=ip.sb:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=ip.sb
 
