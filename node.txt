@@ -11,3 +11,5 @@ vmess=ip.sb:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe
 vmess=achk.cloudflarest.link:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=achk.cloudflarest.link
 
 vmess=japan.com:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=japan.com
+
+vmess=government.se:443, method=aes-128-gcm, password=7811f317-17d1-4e9a-b796-cd85deb491b5, obfs=wss, obfs-host=minet.aulige.sbs, obfs-uri=/vmess?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=government.se
