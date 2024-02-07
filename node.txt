@@ -1,15 +1,15 @@
 vmess=jp-tokyo-oracle-a5a4f1.ip1.shop:57103, method=aes-128-gcm, password=6e4c1aed-cefd-4208-edbf-d22d75c7e2be, obfs=ws, obfs-uri=/6e4c1aed, fast-open=false, udp-relay=false, aead=true, tag=cloud.duckyci.jp
 
-vmess=www.digitalocean.com:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.digitalocean.com
+vmess=www.digitalocean.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.digitalocean.com
 
-vmess=www.udemy.com:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.udemy.com
+vmess=www.udemy.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.udemy.com
 
-vmess=tasteatlas.com:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=tasteatlas.com
+vmess=tasteatlas.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=tasteatlas.com
 
-vmess=ip.sb:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=ip.sb
+vmess=ip.sb:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=ip.sb
 
-vmess=achk.cloudflarest.link:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=achk.cloudflarest.link
+vmess=achk.cloudflarest.link:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=achk.cloudflarest.link
 
-vmess=japan.com:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=japan.com
+vmess=japan.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=japan.com
 
-vmess=www.visa.co.jp:443, method=aes-128-gcm, password=b96db1c2-c7c1-4f85-ee0d-2d7a197afe62, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.visa.co.jp
+vmess=www.visa.co.jp:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.visa.co.jp
