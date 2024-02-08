@@ -16,6 +16,6 @@ vmess=www.hugedomains.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8
 
 vmess=cip.951535.xyz:443, method=aes-128-gcm, password=9f6f6d19-967a-4ba1-a47f-6be34da8c637, obfs=wss, obfs-host=gyx.tweek.gay, obfs-uri=/, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=GY HK ipv6
 
-vmess=104.26.6.116:443, method=aes-128-gcm,password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=优选IP
+vmess=172.67.66.233:443, method=aes-128-gcm,password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=优选IP
 
 vmess=43.229.154.122:55696, method=aes-128-gcm, password=84f785e7-8a46-461e-ba7c-683fdaa978fd, obfs=wss, obfs-host=tw2.pxx.gay, obfs-uri=/a, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=临时台湾
