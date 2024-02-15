@@ -16,4 +16,6 @@ vmess=www.hugedomains.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8
 
 vmess=cip.951535.xyz:443, method=aes-128-gcm, password=9f6f6d19-967a-4ba1-a47f-6be34da8c637, obfs=wss, obfs-host=gyx.tweek.gay, obfs-uri=/, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=GY HK ipv6
 
+vmess=154.17.25.123:49735, method=aes-128-gcm, password=a1f7a885-1387-45b7-d011-422084e1affa, obfs=ws, obfs-uri=/dhdh, fast-open=false, udp-relay=false, aead=true, tag=awa
+
 vmess=172.67.66.233:443, method=aes-128-gcm,password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawovm.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=优选IP
