@@ -1,26 +1,23 @@
+vmess=jp-tokyo-oracle-a5a4f1.ip1.shop:61353, method=aes-128-gcm, password=846adff0-ec7d-4279-9640-02d27ba35cdd, obfs=ws, obfs-uri=/download?ed=2048, fast-open=false, udp-relay=false, aead=true, tag=cloud.duckyci.jp
 
-vmess=jp-tokyo-oracle-a5a4f1.ip1.shop:61353, method=aes-128-gcm, password=846adff0-ec7d-4279-9640-02d27ba35cdd, obfs=ws, obfs-uri=/download, fast-open=false, udp-relay=false, aead=true, tag=cloud.duckyci.jp
+vmess=www.udemy.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.udemy.com
 
-vmess=cloudflare.cfgo.cc:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cloudflare.cfgo.cc
+vmess=japan.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=japan.com
 
-vmess=www.udemy.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.udemy.com
+vmess=achk.cloudflarest.link:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=achk.cloudflarest.link
 
-vmess=achk.cloudflarest.link:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=achk.cloudflarest.link
+vmess=ip.sb:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=ip.sb
 
-vmess=ip.sb:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=ip.sb
+vmess=ali.055500.xyz:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=ali.055500.xyz
 
-vmess=ali.055500.xyz:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=ali.055500.xyz
-
-vmess=cip.951535.xyz:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cip.951535.xyz
-
-vmess=japan.com:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=japan.com
-
-vmess=cf.090227.xyz:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cf.090227.xyz
+vmess=cip.951535.xyz:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cip.951535.xyz
 
 vmess=cip.951535.xyz:443, method=aes-128-gcm, password=9f6f6d19-967a-4ba1-a47f-6be34da8c637, obfs=wss, obfs-host=gyx.tweek.gay, obfs-uri=/, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=GY HK ipv6
 
-vmess=202.81.231.30:53178, method=aes-128-gcm,password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=Hk优选IP
+vmess=cf.090227.xyz:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cf.090227.xyz
 
-vmess=141.98.196.122:37622, method=aes-128-gcm,password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=JP优选IP
+vmess=ct.090227.xyz:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=ct.090227.xyz
 
-vmess=65.75.193.107:443, method=aes-128-gcm,password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=US优选IP
+vmess=cmcc.090227.xyz:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cmcc.090227.xyz
+
+vmess=cloudflare.cfgo.cc:443, method=aes-128-gcm, password=5243a8f7-67c6-4e41-8ad0-4fd20c738e26, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cloudflare.cfgo.cc
