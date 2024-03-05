@@ -1,5 +1,3 @@
-vmess=141.147.180.214:33003, method=aes-128-gcm, password=f3f3df6b-2f64-4728-cf2b-dd814a72cdf7, obfs=ws, obfs-host=jp-tokyo-oracle-dc8895.ip1.shop, obfs-uri=/TG:@dns68提供技术支持, fast-open=false, udp-relay=false, aead=true, tag=https://t.me/warp_key
-
 vmess=jp-tokyo-oracle-a5a4f1.ip1.shop:61353, method=aes-128-gcm, password=846adff0-ec7d-4279-9640-02d27ba35cdd, obfs=ws, obfs-uri=/download?ed=2048, fast-open=false, udp-relay=false, aead=true, tag=cloud.duckyci.jp
 
 vmess=www.udemy.com:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=www.udemy.com
