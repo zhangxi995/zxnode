@@ -12,7 +12,7 @@ vmess=ali.055500.xyz:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1
 
 vmess=cip.951535.xyz:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cip.951535.xyz
 
-vmess=cip.951535.xyz:443, method=aes-128-gcm, password=9f6f6d19-967a-4ba1-a47f-6be34da8c637, obfs=wss, obfs-host=gyx.tweek.gay, obfs-uri=/, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=GY HK ipv6
+vmess=cfip.xxxxxxxx.tk:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cfip.xxxxxxxx.tk
 
 vmess=cf.090227.xyz:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cf.090227.xyz
 
