@@ -20,11 +20,11 @@ vmess=ct.090227.xyz:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e
 
 vmess=cmcc.090227.xyz:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=cmcc.090227.xyz
 
-vmess=acsg.cloudflarest.link:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=acsg.cloudflarest.link
+vmess=acsg.cloudflarest.link:2052, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=acsg.cloudflarest.link
 
-vmess=acjp2.cloudflarest.link:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=acjp2.cloudflarest.link
+vmess=acjp2.cloudflarest.link:2052, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=acjp2.cloudflarest.link
 
-vmess=acsg3.cloudflarest.link:443, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=acsg3.cloudflarest.link
+vmess=acsg3.cloudflarest.link:2052, method=aes-128-gcm, password=61ec6138-f70f-44da-9d8f-1e20e5f2826b, obfs=wss, obfs-host=wawo.aulige.sbs, obfs-uri=/download?ed=2048, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=acsg3.cloudflarest.link
 
 
 
